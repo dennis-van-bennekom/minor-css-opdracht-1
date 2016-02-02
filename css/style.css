@@ -194,20 +194,17 @@ form button:hover {
 }
 
 .photo figcaption {
-  position: relative;
-  top: 0;
   padding: 0.5rem 0 0;
 
   text-align: center;
 
-  -webkit-transition: 0.15s top;
+  -webkit-transition: 0.15s opacity;
 
-  transition: 0.15s top;
+  transition: 0.15s opacity;
 }
 
 .photo:hover figcaption {
-  position: relative;
-  top: 0.6rem;
+  opacity: 0.2;
 }
 
 .photo figcaption svg {
