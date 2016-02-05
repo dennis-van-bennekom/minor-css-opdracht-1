@@ -69,16 +69,16 @@ main {
     text-align: right;
 }
 
-header nav ul {
+.navigation ul {
     list-style: none;
     text-align: center;
 }
 
-header nav li {
+.navigation li {
     display: inline-block;
 }
 
-header nav a {
+.navigation a {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
@@ -86,11 +86,11 @@ header nav a {
     color: #000;
 }
 
-header nav a:hover {
+.navigation a:hover {
     text-decoration: underline;
 }
 
-header nav svg {
+.navigation svg {
     width: 1rem;
     height: 1rem;
 }
@@ -147,15 +147,15 @@ article h2 {
     }
 }
 
-form fieldset {
+.password-form fieldset {
     border: none;
 }
 
-form legend {
+.password-form legend {
     font-weight: 700;
 }
 
-form label {
+.password-form label {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -166,7 +166,7 @@ form label {
     justify-content: space-between;
 }
 
-form button {
+.password-form button {
     background: #02AAB0;
     color: #fff;
     margin-top: 1rem;
@@ -176,7 +176,7 @@ form button {
     border: none;
 }
 
-form button:hover {
+.password-form button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -239,14 +239,10 @@ footer {
     background: #333;
 }
 
-footer ul {
-    list-style: none;
-}
-
-footer address pre,
-footer ul {
+footer .column {
     margin: 0 0 1rem 0;
     padding: 0;
+    list-style: none;
     text-align: center;
     font-style: normal;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -254,14 +250,14 @@ footer ul {
     color: #fff;
 }
 
-footer ul a {
+footer .column a {
     text-decoration: none;
 
     color: #fff;
 }
 
 footer a,
-footer pre {
+footer .column {
     line-height: 1.4;
 }
 
